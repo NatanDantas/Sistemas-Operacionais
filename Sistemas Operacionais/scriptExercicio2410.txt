@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Limpa a tela
+clear
+
+#Importa os dados do sistema
+import os
+
+#Obtem o nome do usuário
+read -p "Qual o seu nome? " nome
+
+#Retorna o nome do usuário
+echo -e "\n\n\tOlá $nome! \n\n" 
+echo -e "\n\n\tSeu Sistema é um $os \n\n" 
